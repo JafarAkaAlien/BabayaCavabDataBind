@@ -27,6 +27,12 @@ class MainActivity : AppCompatActivity(),ClickButton {
          Toast.makeText(this, "Buttona basdin ay ogrash", Toast.LENGTH_SHORT).show()
     }
 }
+class pop{
+    fun popo(){
+        println("popo popo popo")
+    }
+    }
+
 interface ClickButton{
     fun buttonClick()
 }
